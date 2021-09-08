@@ -99,6 +99,16 @@ section a:hover {
 	background: #fff;
 }
 
+section p.sm {
+	list-style: none;
+	text-decoration: none;
+	color: #f4f4f4;
+	border-radius: 5px;
+	padding: 8px 15px;
+	transition: all 0.3s ease;
+}
+
+
 section	h1 {
 	font-size: 4rem;
 }
