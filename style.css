@@ -48,6 +48,16 @@ body {
 
 }
 
+@media screen and (max-width: 900px) {
+	.navbar ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	width:  100%;
+	justify-content: center;
+}
+}
+
 .navbar ul li {
 	margin: 0 1rem;
 	padding: 1rem;
