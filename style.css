@@ -118,6 +118,23 @@ section p.sm {
 	transition: all 0.3s ease;
 }
 
+section p.sm a {
+	list-style: none;
+	text-decoration: none;
+	color: #f4f4f4;
+	border-radius: 5px;
+	padding: 8px 15px;
+	transition: all 0.3s ease;
+
+}
+
+section p.sm a.active,
+section p.sm a:hover {
+	color: #0A0A0A;
+	background: #fff;
+
+}
+
 
 section	h1 {
 	font-size: 4rem;
