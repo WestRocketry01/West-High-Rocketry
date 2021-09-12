@@ -119,6 +119,8 @@ section p.sm {
 }
 
 section p.sm a {
+	display: flex;
+	flex-wrap: wrap;
 	list-style: none;
 	text-decoration: none;
 	color: #f4f4f4;
