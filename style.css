@@ -109,6 +109,37 @@ section a:hover {
 	background: #fff;
 }
 
+
+div .button-contact {
+	font-size: 1.6rem;
+	list-style: none;
+	text-decoration: none;
+	color: #f4f4f4;
+	border-radius: 5px;
+	padding: 8px 15px;
+	transition: all 0.3s ease;
+
+}
+
+div .button-contact a {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	text-decoration: none;
+	color: #0A0A0A;
+	background: #fff;
+	border-radius: 5px;
+	padding: 8px 15px;
+	transition: all 0.3s ease;
+}
+
+div .button-contact a.active {
+	color: #f4f4f4;
+	background: #fff;
+
+}
+
+
 section p.sm {
 	list-style: none;
 	text-decoration: none;
